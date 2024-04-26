@@ -1,0 +1,58 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.color-green {
+    color: green;
+}
+
+.color-red {
+    color: red;
+}
+
+.color-pink {
+    color: pink;
+}
+
+.color-brown {
+    color: brown;
+}
+
+.color-blue{
+    color: blue;
+}
+
+.color-cyan {
+    color: cyan;
+}
+
+.color-orange {
+    color: orange;
+}
+
+.color-yellow {
+    color: yellow;
+}
+
+.logo {
+    max-width: 200px; 
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href= "style.css" />
+    <title>f1-2023-Standings</title>
+    <script defer src="script.js"></script>
+    <link rel="icon" href="img/download.png" type="image/x-icon">
+</head>
+<body>
+    <header class="bg-red-600 py-5 flex justify-center">
+        <img src="img/download.png" alt="Logo da sua loja" class="logo">
+    </header>
+    <main class="px-10">    
+        <h2 class="text-x1 font-f1-bold m-5 text-center">
+            2023- Driver Standings
+        </h2>
+        <table class="mt-8 table-auto w-screen text-sm text-gray-800">
+            <thead class="text-sm font-s1-regular text-gray-500 uppercase">
+                <th class="text-sm pb-5">Pos</th>
+                <th class="text-sm pb-5">Piloto</th>
+                <th class="text-sm pb-5">Equipe</th>
+                <th class="text-sm pb-5">Pontos</th>
+            </thead>
+            <tbody id="corpo-tabela"></tbody>
+        </table>
+    </main>
+</body>
+</html>
